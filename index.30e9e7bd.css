@@ -1,0 +1,938 @@
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  padding: 34px 5px;
+}
+
+.header__list {
+  font-size: 15px;
+  font: 400;
+  align-items: center;
+  gap: 50px;
+  margin-right: 180px;
+  display: flex;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container--header {
+  padding: 0;
+}
+
+.header__nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header__left {
+  align-items: center;
+  gap: 57px;
+  display: flex;
+}
+
+.header__right {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.header__list {
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+
+nav {
+  font-family: Graphik LCG;
+  font-size: 15px;
+}
+
+nav ul {
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  color: #000;
+  font-family: Graphik LCG;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400px;
+  display: inline;
+}
+
+a {
+  color: #000;
+  font-family: Graphik LCG;
+  font-size: 15px;
+  font-weight: 400px;
+  text-decoration: none;
+  display: inline;
+}
+
+.header-localise {
+  border: gray;
+  border-bottom: 1px solid;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.button--red.button--large, .button--white.button--large {
+  font-display: swap;
+  margin-top: 20px;
+  padding: 0 42px;
+  font-family: Graphik LCG;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 60px;
+}
+
+.button--red.button--white, .button--white.button--white {
+  color: #000;
+  font-display: swap;
+  background-color: #fff;
+  border: 1px solid;
+  margin-left: 10px;
+  padding: 0 36px;
+  font-family: Graphik LCG;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.button--red.button--red, .button--white.button--red {
+  color: #fff;
+  font-display: swap;
+  background-color: #ff6336;
+  border-color: #ff6336;
+  margin-left: 5px;
+  padding: 0 36px;
+  font-family: Graphik LCG;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.page__inputs .button--red.button--large, .page__inputs .button--white.button--large {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logodiv {
+  align-items: left;
+  display: flex;
+}
+
+h3 {
+  font-display: swap;
+  font-family: Graphik LCG;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header-top-right {
+  font-display: swap;
+  margin-left: 150px;
+  font-family: Graphik LCG;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+}
+
+.container-title {
+  flex: 1;
+  max-width: 620px;
+  margin-bottom: 20px;
+}
+
+.localization-definition {
+  font-display: swap;
+  margin-bottom: 20px;
+  font-family: Graphik LCG;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.page__try-all {
+  font-display: swap;
+  margin-top: 20px;
+  font-family: Graphik LCG;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.page {
+  padding-top: 130px;
+  padding-bottom: 170px;
+}
+
+.page__image {
+  width: 759px;
+  height: 529px;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.localization-companies {
+  background-color: #ff9c7d;
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+.tool {
+  margin: 98px 285px;
+  font-family: Graphik LCG;
+  font-size: 50px;
+}
+
+.whylocalize-sec {
+  background-color: #fff8e4;
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+
+.whylocalize-wrapper {
+  flex-wrap: wrap;
+  max-width: 1290px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.whylocalize-div-card {
+  flex: 1 0 33.3%;
+}
+
+.whylocalize-header-div {
+  flex: 1;
+}
+
+.whylocalize-header-main {
+  font-display: swap;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Graphik LCG;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.whylocalize-header {
+  font-display: swap;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Graphik LCG;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.whylocalize-text {
+  font-display: swap;
+  gap: 3px;
+  margin-top: 15px;
+  margin-right: 40px;
+  font-family: Graphik LCG;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.localization-image-div {
+  align-items: flex-end;
+  gap: 32px;
+  display: flex;
+}
+
+.content-footer {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.div-tool {
+  align-self: flex-start;
+  margin: 30px;
+}
+
+.logo-for-footer-div {
+  align-self: flex-end;
+  width: 100%;
+}
+
+.Learn, .Learn-ul {
+  font-display: swap;
+  text-align: left;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.integ-button {
+  color: #f0f8ff;
+  cursor: pointer;
+  font-display: swap;
+  background-color: #ff6336;
+  border-color: #ff6336;
+  align-items: center;
+  padding: 16px 20px;
+  font-family: Graphik LCG;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.integ-button-div {
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.easy-localization {
+  text-align: center;
+  background-color: #ff9c7d;
+  padding-top: 161px;
+  padding-bottom: 192px;
+}
+
+.easy-loc-text {
+  font-display: swap;
+  align-items: center;
+  margin: 30px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.try-button-black {
+  color: #fefefe;
+  cursor: pointer;
+  font-display: swap;
+  background-color: #000;
+  border-color: #000;
+  align-items: center;
+  margin: 30px;
+  padding: 16px 30px;
+  font-family: Graphik LCG;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Learn a {
+  font-display: swap;
+  text-align: left;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.easy-header {
+  margin-bottom: 20px;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.quatotion {
+  text-align: left;
+  font-display: swap;
+  font-family: Graphik LCG;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.revolut-text {
+  max-width: 920px;
+  padding: 110px;
+}
+
+.rev-div {
+  height: 72px;
+  padding: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.manrevolut {
+  background-color: #c9e8f2;
+  padding-top: 20px;
+  padding-bottom: 203px;
+}
+
+.revolut-photo {
+  width: 310px;
+  height: 310px;
+}
+
+.managerimage {
+  height: 166px;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.card-text {
+  color: #000;
+  font-display: swap;
+  margin: 100px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.boost {
+  padding-top: 154px;
+  padding-bottom: 214px;
+}
+
+.boost-card {
+  flex: 1 0 33.33%;
+  align-self: center;
+  gap: 20px;
+}
+
+.boostheader {
+  text-align: center;
+  font-display: swap;
+  margin-bottom: 20px;
+  font-family: Graphik LCG;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.boostp {
+  text-align: left;
+  font-display: swap;
+  margin-right: 60px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.boost-div-header {
+  font-display: swap;
+  text-align: left;
+  font-family: Graphik LCG;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container-boost {
+  text-align: center;
+  flex-wrap: wrap;
+  width: 1290px;
+  display: flex;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.tort {
+  background-color: #dabc98;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tort--background {
+  background-color: #dabc98;
+}
+
+.tort__container {
+  justify-content: center;
+  align-items: center;
+  max-width: 1290px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.tort__description {
+  position: relative;
+}
+
+.tort__text {
+  font-display: swap;
+  margin-left: 30px;
+  padding: 47px;
+  font-family: Graphik LCG;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.tort__text:after {
+  content: "";
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+.tort__item {
+  width: 809px;
+  padding: 20px;
+  display: inline-flex;
+}
+
+.tort__text-div {
+  width: 481px;
+  margin-left: 47px;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer {
+  background: #eee;
+  padding: 92px 0 43px;
+}
+
+.footer-top {
+  border-bottom: 1px solid;
+  justify-content: space-between;
+  gap: 34px;
+  margin-bottom: 48px;
+  padding-bottom: 95px;
+  display: flex;
+}
+
+.footer-case-studies {
+  flex-flow: column;
+  flex: 4;
+  margin-right: 110px;
+  display: flex;
+}
+
+.footer-case-studies img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin-bottom: 31px;
+}
+
+.footer-case-studies svg {
+  margin-bottom: 11px;
+}
+
+.footer-heading {
+  font-display: swap;
+  margin-bottom: 28px;
+  font-family: Graphik LCG;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.footer-text {
+  font-display: swap;
+  margin-bottom: 15px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer-link {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer-nav {
+  flex: 11;
+  gap: 34px;
+  padding: 5px;
+  display: flex;
+}
+
+.footer-nav-list {
+  flex: 1;
+}
+
+.footer-nav-list-heading {
+  margin-bottom: 21px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.footer-nav-list ul {
+  font-display: swap;
+  flex-flow: column;
+  gap: 15px;
+  font-family: Graphik LCG;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  display: flex;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.footer-bottom {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-left {
+  min-width: 411px;
+  display: flex;
+}
+
+.footer-right {
+  min-width: 109px;
+  display: flex;
+}
+
+.footer .fspan {
+  font-display: swap;
+  min-width: 109px;
+  font-family: Graphik LCG;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.container1 {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.container-center {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container-center1 {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1290px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+}
+
+.container2 {
+  align-items: left;
+  justify-content: left;
+  max-width: 1290px;
+  margin: 0 auto 80px;
+  padding: 0 15px;
+  display: flex;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.bird-div, .bird-image-div {
+  flex: 1;
+  margin: 10px;
+}
+
+.bird {
+  padding-top: 169px;
+  padding-bottom: 169px;
+}
+
+.birdheader {
+  font-display: swap;
+  font-family: Graphik LCG;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bird-text {
+  font-display: swap;
+  font-family: Graphik LCG;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.beige {
+  padding: 60px 44px 150px;
+}
+
+.beige1, .beige2 {
+  padding: 50px 44px 150px;
+}
+
+.beige3 {
+  padding: 50px 44px 80px;
+}
+
+.image {
+  background-color: #fff8e4;
+  flex: 1 0 50%;
+}
+
+.text {
+  flex: 1 0 50%;
+}
+
+.text-header {
+  text-align: left;
+  font-display: swap;
+  text-align: left;
+  margin-top: 145.5px;
+  margin-left: 44px;
+  margin-right: 166px;
+  font-family: Graphik LCG;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text-button {
+  text-align: left;
+  font-display: swap;
+  text-align: left;
+  margin-left: 44px;
+  margin-right: 166px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card-text {
+  color: #000;
+  font-display: swap;
+  text-align: left;
+  margin-left: 44px;
+  margin-right: 166px;
+  font-family: Graphik LCG;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.underline {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Regular.696dd1bb.woff2") format("woff2"), url("GraphikLCG-Regular.33c3449d.woff") format("woff"), url("GraphikLCG-Regular.b4a98a5e.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Graphik LCG;
+  src: url("GraphikLCG-Semibold.7ad97612.ttf") format("woff2"), url("GraphikLCG-Semibold.e1bb57c6.woff") format("woff"), url("GraphikLCG-Semibold.b1f7a51a.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=index.30e9e7bd.css.map */
